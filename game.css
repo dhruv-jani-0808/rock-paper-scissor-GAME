@@ -8,7 +8,7 @@ h1 {
     display: inline;
 }
 img {
-    width: 20vw;
+    width: 18vw;
     border-radius: 50%;
 }
 img:hover {
@@ -23,7 +23,7 @@ img:hover {
 }
 
 p {
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 #comp-text {
-    font-size: 4vh;
+    font-size: 3vh;
     margin-left: 26vw;
     display: inline;
 }
