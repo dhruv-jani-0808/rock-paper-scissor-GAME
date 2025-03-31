@@ -11,19 +11,19 @@ let scissor = document.querySelector("#scissor");
 //assigning the values of userAns
 rock.addEventListener("click", () => {
     userAns = 0;
-    playgame();
+    playgame(userAns);
 })
 paper.addEventListener("click", () => {
     userAns = 1;
-    playgame();
+    playgame(userAns);
 })
 scissor.addEventListener("click", () => {
     userAns = 2;
-    playgame();
+    playgame(userAns);
 })
 
 //our function which will match both the result 
-function playgame() {
+function playgame(userAns) {
     let result = document.querySelector("#result");
     let random = Math.floor(Math.random() * 3);
 
@@ -40,13 +40,19 @@ function playgame() {
 
     if (random === userAns) {
        result.innerText = "it's a draw!";
+       result.style.backgroundcolor = "aqua";
+       result.style.color = "black";
     }
     else if((random === 0 && userAns === 2) || (random === 1 && userAns === 0) || (random === 2 && userAns === 1)) {
-        result.innerText = "The winner is computer!";
+        result.innerText = "you lose!";
+        result.style.backgroundColor = "red";
+        result.style.color = "white";
         compScore.innerText++;
     }
     else {
-        result.innerText = "The winner is user!";
+        result.innerText = "you win!";
+        result.style.backgroundColor = "green";
+        result.style.color = "white";
         userScore.innerText++;
     }
 }
