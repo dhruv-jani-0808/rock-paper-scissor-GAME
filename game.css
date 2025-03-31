@@ -1,0 +1,48 @@
+h1 {
+    font-size: 5vh;
+    background-color: aqua;
+    text-align: center;
+    border: 0.25vh solid black;
+}
+#title {
+    display: inline;
+}
+img {
+    height: 25vh;
+    width: 13.5vw;
+    border-radius: 50%;
+}
+img:hover {
+    transform: scale(110%);
+}
+
+#rock {
+    margin-left: 24vw;
+}
+#paper,#scissor {
+    margin-left: 5vw;
+}
+
+p {
+    font-size: 4vh;
+    text-align: center;
+}
+
+#result {
+    height: 5vh;
+    width: 30vw;
+    font-size: 4vh;
+    background-color: aqua;
+    text-align: center;
+    border: 0.25vh solid black;
+}
+
+#comp-text {
+    font-size: 4vh;
+    margin-left: 26vw;
+    display: inline;
+}
+
+.score,#comp-image {
+    display: inline;
+}
