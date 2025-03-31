@@ -11,6 +11,7 @@ img {
     height: 25vh;
     width: 13.5vw;
     border-radius: 50%;
+    object-fit: cover;
 }
 img:hover {
     transform: scale(110%);
