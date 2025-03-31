@@ -14,10 +14,6 @@ img {
 img:hover {
     transform: scale(110%);
 }
-
-#rock {
-    margin-left: 24vw;
-}
 #paper,#scissor {
     margin-left: 5vw;
 }
@@ -28,9 +24,9 @@ p {
 }
 
 #result {
-    height: 5vh;
+    height: 10vh;
     width: 100%;
-    font-size: 4vh;
+    font-size: 3vh;
     background-color: aqua;
     text-align: center;
     border: 0.25vh solid black;
