@@ -29,13 +29,13 @@ function playgame() {
 
     let img = document.querySelector("#comp-image");
     if (random === 0) {
-        img.innerHTML = "<img src='rock.jpeg'>";
+        img.innerHTML = "<center><img src='rock.jpeg'></center>";
     }
     else if (random === 1) {
-        img.innerHTML = "<img src='paper.jpeg'>";
+        img.innerHTML = "<center><img src='paper.jpeg'></center>";
     }
     else {
-        img.innerHTML = "<img src='scissor.jpeg'>";
+        img.innerHTML = "<center><img src='scissor.jpeg'></center>";
     }
 
     if (random === userAns) {
