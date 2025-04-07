@@ -3,11 +3,13 @@ h1 {
     background-color: aqua;
     text-align: center;
     border: 0.25vh solid black;
+    padding-top: 0;
+    margin-top: 0;
 }
 #title {
     display: inline;
 }
-img {
+#rock, #paper, #scissor {
     width: 18vw;
     border-radius: 50%;
 }
@@ -29,10 +31,10 @@ p {
     font-size: 3vh;
     background-color: aqua;
     text-align: center;
+    border: 0.25vh solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.25vh solid black;
 }
 
 #comp-text {
@@ -41,6 +43,6 @@ p {
     display: inline;
 }
 
-.score,#comp-image {
+.score,#compImage {
     display: inline;
 }

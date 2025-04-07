@@ -27,7 +27,7 @@ function playgame(userAns) {
     let result = document.querySelector("#result");
     let random = Math.floor(Math.random() * 3);
 
-    let img = document.querySelector("#comp-image");
+    let img = document.querySelector("#compImage");
     if (random === 0) {
         img.innerHTML = "<center><img src='rock.jpeg'></center>";
     }
@@ -40,7 +40,7 @@ function playgame(userAns) {
 
     if (random === userAns) {
        result.innerText = "it's a draw!";
-       result.style.backgroundcolor = "aqua";
+       result.style.backgroundcolor = "#00ffff";
        result.style.color = "black";
     }
     else if((random === 0 && userAns === 2) || (random === 1 && userAns === 0) || (random === 2 && userAns === 1)) {
