@@ -22,7 +22,7 @@ scissor.addEventListener("click", () => {
     playgame(userAns);
 })
 
-//our function which will match both the result 
+//our function which will compare both the result 
 function playgame(userAns) {
     let result = document.querySelector("#result");
     let random = Math.floor(Math.random() * 3);
